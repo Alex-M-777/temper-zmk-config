@@ -13,9 +13,4 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - DELETE
-  - - RST
-    - ''
-    - {t: SPACE, h: ⌃}
-    - {t: BACKSPACE, h: LSHIFT}
-    - ''
-    - RST
+  - ['', '', SPACE, BACKSPACE, '', '']
