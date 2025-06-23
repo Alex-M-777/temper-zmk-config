@@ -13,9 +13,37 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - DELETE
-  - - ''
-    - ''
+  - - '&bootloader'
+    - Navigation
     - {t: SPACE, h: ⌃}
     - {t: BACKSPACE, h: LSHIFT}
     - ''
-    - ''
+    - '&bootloader'
+  Navigation:
+  - - '&msc SCRL_LEFT'
+    - '&msc SCRL_DOWN'
+    - '&msc SCRL_UP'
+    - '&msc SCRL_RIGHT'
+    - '&mkb MCLK'
+    - {t: /, s: '?'}
+    - '7'
+    - '8'
+    - '9'
+    - {t: '-', s: _}
+  - ['&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_UP', '&mmv MOVE_RIGHT', '&mkb LCLK', '*', '4', '5', '6', +]
+  - - ←
+    - ↓
+    - ↑
+    - →
+    - '&mkb RCLK'
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - {t: '=', s: +}
+  - - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
