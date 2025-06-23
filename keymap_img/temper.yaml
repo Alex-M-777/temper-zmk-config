@@ -26,7 +26,7 @@ layers:
     - Navigation
     - {t: SPACE, h: ⌃}
     - {t: BACKSPACE, h: LSHIFT}
-    - ''
+    - Symbol
     - '&bootloader'
   Navigation:
   - - '&msc SCRL_LEFT'
@@ -55,4 +55,41 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  Symbol:
+  - - ESC
+    - {t: /, s: '?'}
+    - '?'
+    - '{'
+    - '}'
+    - \
+    - '|'
+    - ''''
+    - '"'
+    - _
+  - - {t: '`', s: '~'}
+    - {t: ;, s: ':'}
+    - ':'
+    - (
+    - )
+    - Gui+↑
+    - Sft+LA(ESC
+    - Alt+ESC
+    - Sft+↹
+    - ↹
+  - - '~'
+    - <
+    - '>'
+    - {t: '[', s: '{'}
+    - {t: ']', s: '}'}
+    - Gui+↓
+    - Ctl+Sft+↹
+    - ⌃↹
+    - ↞
+    - ↠
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
