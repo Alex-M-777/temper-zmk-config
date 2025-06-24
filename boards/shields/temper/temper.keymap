@@ -33,7 +33,7 @@
 &kp ESC &kp SLASH &kp QMARK &kp LBRC &kp RBRC 
 	&kp BSLH &kp PIPE &kp SQT &kp DQT &kp UNDER 
 &kp GRAVE &kp SEMI &kp COLON &kp LPAR &kp RPAR
-	&kp LG(UP) &kp LS(LA(ESC) &kp LA(ESC) &kp LS(TAB) &kp TAB
+	&kp LG(UP) &kp LS(LA(ESC)) &kp LA(ESC) &kp LS(TAB) &kp TAB
 &kp TILDE &kp LT &kp GT &kp LBKT &kp RBKT
 	&kp LG(DOWN) &kp LC(LS(TAB)) &kp LC(TAB) &kp LA(LEFT) &kp LA(RIGHT)  
 &trans &trans &trans &trans &trans &trans
