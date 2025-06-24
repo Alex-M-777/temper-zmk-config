@@ -51,7 +51,7 @@ layers:
     - '3'
     - {t: '=', s: +}
   - - {t: ▽, type: trans}
-    - '&mo3'
+    - Symbol
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
@@ -91,5 +91,5 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
