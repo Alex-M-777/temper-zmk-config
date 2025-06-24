@@ -40,7 +40,7 @@
 		>;
 	};
 	func {
-		display-name = "Symbol";
+		display-name = "Function";
 		bindings = <
 &kp F1 &kp F2 &kp F3 &kp F4 &trans 
 	&trans &trans &trans &trans &trans 
