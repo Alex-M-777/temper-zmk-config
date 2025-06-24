@@ -7,11 +7,11 @@ layers:
     - {t: D, h: ⇧}
     - {t: F, h: ⌃}
     - G
-    - {t: H, h: ⌃}
-    - {t: J, h: ⇧}
-    - {t: K, h: ⎇}
-    - {t: L, h: ⌘}
-    - ENTER
+    - H
+    - {t: J, h: ⌃}
+    - {t: K, h: ⇧}
+    - {t: L, h: ⎇}
+    - {t: ENTER, h: ⌘}
   - - Z
     - X
     - C
