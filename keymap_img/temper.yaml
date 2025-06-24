@@ -51,12 +51,49 @@ layers:
     - '3'
     - {t: '=', s: +}
   - - {t: ▽, type: trans}
-    - Symbol
+    - Function
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
   Symbol:
+  - - ESC
+    - {t: /, s: '?'}
+    - '?'
+    - '{'
+    - '}'
+    - \
+    - '|'
+    - ''''
+    - '"'
+    - _
+  - - {t: '`', s: '~'}
+    - {t: ;, s: ':'}
+    - ':'
+    - (
+    - )
+    - Gui+↑
+    - Sft+Alt+ESC
+    - Alt+ESC
+    - Sft+↹
+    - ↹
+  - - '~'
+    - <
+    - '>'
+    - {t: '[', s: '{'}
+    - {t: ']', s: '}'}
+    - Gui+↓
+    - Ctl+Sft+↹
+    - ⌃↹
+    - ↞
+    - ↠
+  - - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Function
+    - {t: ▽, type: trans}
+  Function:
   - - F1
     - F2
     - F3
